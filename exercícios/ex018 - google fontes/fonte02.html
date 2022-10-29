@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url(fonts/love\ larry.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'valentine';
+            src: url(fonts/Valentine\ Moment.ttf) format('truetype');
+        }
+
+            /* tipos de format()
+            
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype
+               - truetype-att (Apple Advenced Typography)
+               - svg
+
+               o caminho das url são das fontes salvas na pasta do cliente
+            */
+            
+        
+        body{
+            font-family: 'valentine';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+        }
+
+        h1 {
+            font-family: 'love';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <H1>Olá, Mundo!</H1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus similique aut quasi est ad totam, aspernatur cum dolor velit iste libero a sit dicta hic dignissimos doloremque ut odit officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet, voluptatum repellendus neque velit ducimus deserunt enim aspernatur officiis esse, quia, corporis minus ut beatae maxime nemo accusantium fugit asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque dignissimos nulla, dolorum eum illo vero et tenetur id, beatae laborum dicta ratione non harum eaque obcaecati commodi alias aliquid quaerat.</p>
+    
+</body>
+</html>
